@@ -1,0 +1,24 @@
+{
+  "name": "async-preset",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freection/async-preset.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/freection/async-preset/issues"
+  },
+  "homepage": "https://github.com/freection/async-preset#readme",
+  "dependencies": {
+    "babel-plugin-syntax-jsx": "^6.13.0",
+    "babel-plugin-transform-async-to-module-method": "^6.8.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.11.5"
+  }
+}
