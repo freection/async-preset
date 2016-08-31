@@ -5,6 +5,7 @@ module.exports = {
             "method": "wrap"
         }],
         require("babel-plugin-transform-es2015-modules-commonjs"),
-        require("babel-plugin-syntax-jsx")
+        require("babel-plugin-syntax-jsx"),
+        require("babel-plugin-transform-class-properties")
     ]
 }
